@@ -4,7 +4,7 @@ import "./styles.css";
 
 
 //useInput은 기본적으로 input을 업데이트함 
-//value 변수의 값을 갱신하려면 setValue를 호출하면 됩니다.
+//value 변수의 값을 갱신하려면 setValue를 호출하면 됩니다!
 const useInput = (initialValue) => {
   const [value, setValue ] = useState(initialValue);
   const onChange = event => {
